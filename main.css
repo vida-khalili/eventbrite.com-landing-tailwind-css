@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Neue Plak";
+  src: url("./font/Neue-Plak.woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  font-family: "Neue-Plak", sans-serif;
+  color: #39364f;
+  font-size: 14px;
+}
