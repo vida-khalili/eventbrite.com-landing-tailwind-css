@@ -13,56 +13,73 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <nav class="bg-white border-gray-200 h-[72px] flex items-center px-5">
-      <div class="flex w-full items-center justify-between h-full">
-        <div class="flex items-center">
-          <a
-            href="https://flowbite.com/"
-            class="flex items-center basis-36 mr-4"
-          >
-            <svg viewBox="0 0 200 36" class="h-5 fill-orange-600">
-              <g fill-rule="evenodd">
-                <g>
-                  <g transform="translate(.347)">
-                    <path
-                      d="M185.945 17.513c2.693-.61 5.381.495 6.878 2.584l-11.905 2.693c.411-2.52 2.333-4.668 5.027-5.277zm6.944 9.91a6.57 6.57 0 01-3.979 2.679c-2.711.614-5.417-.51-6.908-2.626l11.942-2.702 1.945-.44 3.719-.841a11.782 11.782 0 00-.31-2.372c-1.513-6.426-8.055-10.432-14.611-8.949-6.556 1.484-10.644 7.896-9.13 14.321 1.513 6.426 8.055 10.433 14.61 8.95 3.864-.875 6.869-3.46 8.377-6.751l-5.655-1.269z"
-                    ></path>
-                    <path
-                      id="logo-wordmark-brand_svg__Fill-10"
-                      d="M164.788 35.118V18.082h-3.677v-5.804h3.677V4.289h6.244v7.989h4.69v5.804h-4.69v17.036z"
-                    ></path>
-                    <path
-                      d="M152.86 35.118h6.03v-22.84h-6.03v22.84zm-.785-30.853c0-2.114 1.667-3.7 3.825-3.7 2.157 0 3.775 1.586 3.775 3.7 0 2.115-1.618 3.748-3.775 3.748-2.158 0-3.825-1.633-3.825-3.748zM150.76 12.342c-3.082.16-4.9.633-6.75 1.973v-2.037h-6.026v22.84h6.026v-11.2c0-3.524.86-5.529 6.75-5.726v-5.85zM117.16 24.057c.15 3.333 3.051 6.128 6.602 6.128 3.601 0 6.552-2.942 6.552-6.422 0-3.432-2.95-6.373-6.552-6.373-3.551 0-6.452 2.843-6.602 6.128v.539zm-5.88 11.061V1.38l6.03-1.364v13.962c1.863-1.49 4.07-2.115 6.472-2.115 6.864 0 12.355 5.286 12.355 11.918 0 6.583-5.491 11.965-12.355 11.965-2.403 0-4.609-.624-6.472-2.114v1.487h-6.03z"
-                    ></path>
-                    <path
-                      id="logo-wordmark-brand_svg__Fill-1"
-                      d="M98.445 35.118V17.965h-3.677v-5.687h3.677V4.283l6.244-1.413v9.408h4.69v5.687h-4.69v17.153z"
-                    ></path>
-                    <path
-                      d="M87.394 35.118V22.915c0-4.421-2.402-5.382-4.805-5.382-2.402 0-4.805.913-4.805 5.286v12.299h-6.03v-22.84h6.03v1.699c1.324-.961 2.942-2.115 6.13-2.115 5.098 0 9.51 2.932 9.51 10.092v13.164h-6.03zM56.484 17.513c2.694-.61 5.382.495 6.878 2.584L51.458 22.79c.41-2.52 2.332-4.668 5.026-5.277zm6.945 9.91a6.57 6.57 0 01-3.98 2.679c-2.711.614-5.416-.51-6.907-2.626l11.942-2.702 1.944-.44 3.72-.841a11.782 11.782 0 00-.31-2.372c-1.514-6.426-8.056-10.432-14.612-8.949-6.556 1.484-10.644 7.896-9.13 14.321 1.513 6.426 8.055 10.433 14.611 8.95 3.863-.875 6.868-3.46 8.376-6.751l-5.654-1.269z"
-                    ></path>
-                    <path
-                      id="logo-wordmark-brand_svg__Fill-2"
-                      d="M31.89 35.118l-9.364-22.84h6.57l5.932 15.49 5.982-15.49h6.57l-9.365 22.84z"
-                    ></path>
-                    <path
-                      d="M10.703 17.507c2.694-.61 5.382.495 6.878 2.584L5.677 22.785c.41-2.52 2.332-4.668 5.026-5.278zm6.945 9.91a6.57 6.57 0 01-3.98 2.68c-2.71.613-5.416-.51-6.907-2.626l11.942-2.702 1.945-.44 3.718-.842a11.782 11.782 0 00-.31-2.371c-1.513-6.426-8.055-10.433-14.61-8.95C2.888 13.65-1.2 20.063.314 26.489c1.514 6.426 8.055 10.432 14.611 8.949 3.864-.874 6.869-3.46 8.376-6.75l-5.654-1.27z"
-                    ></path>
-                  </g>
+    <nav class="bg-white border-gray-200">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 lg:h-[72px]"
+      >
+        <a href="https://flowbite.com/" class="flex items-center basis-36 mr-4">
+          <svg viewBox="0 0 200 36" class="h-5 fill-orange-600">
+            <g fill-rule="evenodd">
+              <g>
+                <g transform="translate(.347)">
+                  <path
+                    d="M185.945 17.513c2.693-.61 5.381.495 6.878 2.584l-11.905 2.693c.411-2.52 2.333-4.668 5.027-5.277zm6.944 9.91a6.57 6.57 0 01-3.979 2.679c-2.711.614-5.417-.51-6.908-2.626l11.942-2.702 1.945-.44 3.719-.841a11.782 11.782 0 00-.31-2.372c-1.513-6.426-8.055-10.432-14.611-8.949-6.556 1.484-10.644 7.896-9.13 14.321 1.513 6.426 8.055 10.433 14.61 8.95 3.864-.875 6.869-3.46 8.377-6.751l-5.655-1.269z"
+                  ></path>
+                  <path
+                    id="logo-wordmark-brand_svg__Fill-10"
+                    d="M164.788 35.118V18.082h-3.677v-5.804h3.677V4.289h6.244v7.989h4.69v5.804h-4.69v17.036z"
+                  ></path>
+                  <path
+                    d="M152.86 35.118h6.03v-22.84h-6.03v22.84zm-.785-30.853c0-2.114 1.667-3.7 3.825-3.7 2.157 0 3.775 1.586 3.775 3.7 0 2.115-1.618 3.748-3.775 3.748-2.158 0-3.825-1.633-3.825-3.748zM150.76 12.342c-3.082.16-4.9.633-6.75 1.973v-2.037h-6.026v22.84h6.026v-11.2c0-3.524.86-5.529 6.75-5.726v-5.85zM117.16 24.057c.15 3.333 3.051 6.128 6.602 6.128 3.601 0 6.552-2.942 6.552-6.422 0-3.432-2.95-6.373-6.552-6.373-3.551 0-6.452 2.843-6.602 6.128v.539zm-5.88 11.061V1.38l6.03-1.364v13.962c1.863-1.49 4.07-2.115 6.472-2.115 6.864 0 12.355 5.286 12.355 11.918 0 6.583-5.491 11.965-12.355 11.965-2.403 0-4.609-.624-6.472-2.114v1.487h-6.03z"
+                  ></path>
+                  <path
+                    id="logo-wordmark-brand_svg__Fill-1"
+                    d="M98.445 35.118V17.965h-3.677v-5.687h3.677V4.283l6.244-1.413v9.408h4.69v5.687h-4.69v17.153z"
+                  ></path>
+                  <path
+                    d="M87.394 35.118V22.915c0-4.421-2.402-5.382-4.805-5.382-2.402 0-4.805.913-4.805 5.286v12.299h-6.03v-22.84h6.03v1.699c1.324-.961 2.942-2.115 6.13-2.115 5.098 0 9.51 2.932 9.51 10.092v13.164h-6.03zM56.484 17.513c2.694-.61 5.382.495 6.878 2.584L51.458 22.79c.41-2.52 2.332-4.668 5.026-5.277zm6.945 9.91a6.57 6.57 0 01-3.98 2.679c-2.711.614-5.416-.51-6.907-2.626l11.942-2.702 1.944-.44 3.72-.841a11.782 11.782 0 00-.31-2.372c-1.514-6.426-8.056-10.432-14.612-8.949-6.556 1.484-10.644 7.896-9.13 14.321 1.513 6.426 8.055 10.433 14.611 8.95 3.863-.875 6.868-3.46 8.376-6.751l-5.654-1.269z"
+                  ></path>
+                  <path
+                    id="logo-wordmark-brand_svg__Fill-2"
+                    d="M31.89 35.118l-9.364-22.84h6.57l5.932 15.49 5.982-15.49h6.57l-9.365 22.84z"
+                  ></path>
+                  <path
+                    d="M10.703 17.507c2.694-.61 5.382.495 6.878 2.584L5.677 22.785c.41-2.52 2.332-4.668 5.026-5.278zm6.945 9.91a6.57 6.57 0 01-3.98 2.68c-2.71.613-5.416-.51-6.907-2.626l11.942-2.702 1.945-.44 3.718-.842a11.782 11.782 0 00-.31-2.371c-1.513-6.426-8.055-10.433-14.61-8.95C2.888 13.65-1.2 20.063.314 26.489c1.514 6.426 8.055 10.432 14.611 8.949 3.864-.874 6.869-3.46 8.376-6.75l-5.654-1.27z"
+                  ></path>
                 </g>
               </g>
+            </g>
+          </svg>
+        </a>
+        <div class="flex">
+          <button
+            type="button"
+            data-collapse-toggle="navbar-search"
+            aria-controls="navbar-search"
+            aria-expanded="false"
+            class="md:hidden text-gray-500 focus:outline-none focus:ring-4 focus:ring-gray-200 rounded-lg text-sm p-2.5 mr-1"
+          >
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                clip-rule="evenodd"
+              ></path>
             </svg>
-          </a>
-          <div class="flex max-w-md">
-            <button
-              type="button"
-              data-collapse-toggle="navbar-search"
-              aria-controls="navbar-search"
-              aria-expanded="false"
-              class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 mr-1"
+            <span class="sr-only">Search</span>
+          </button>
+          <div class="relative hidden md:block">
+            <div
+              class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
             >
               <svg
-                class="w-5 h-5"
+                class="w-5 h-5 text-gray-500"
                 aria-hidden="true"
                 fill="currentColor"
                 viewBox="0 0 20 20"
@@ -74,44 +91,48 @@
                   clip-rule="evenodd"
                 ></path>
               </svg>
-              <span class="sr-only">Search</span>
-            </button>
-            <div class="relative hidden md:block">
-              <div
-                class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
-              >
-                <svg
-                  class="w-5 h-5 text-gray-500"
-                  aria-hidden="true"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <span class="sr-only">Search icon</span>
-              </div>
-              <input
-                type="text"
-                id="search-navbar"
-                class="h-[45px] block outline-transparent border-none w-[450px] p-2 pl-10 text-sm text-gray-900 border border-gray-300 bg-slate-100 focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 font-bold"
-                placeholder="Search events "
-              />
+              <span class="sr-only">Search icon</span>
             </div>
-            <button
-              data-collapse-toggle="navbar-search"
-              type="button"
-              class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-              aria-controls="navbar-search"
-              aria-expanded="false"
+            <input
+              type="text"
+              id="search-navbar"
+              class="h-[45px] block outline-transparent border-none w-[450px] p-2 pl-10 text-sm text-gray-900 border border-gray-300 bg-slate-100 focus:ring-blue-500 focus:border-blue-500 font-bold"
+              placeholder="Search events"
+            />
+          </div>
+          <button
+            data-collapse-toggle="navbar-search"
+            type="button"
+            class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+            aria-controls="navbar-search"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open menu</span>
+            <svg
+              class="w-6 h-6"
+              aria-hidden="true"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <span class="sr-only">Open menu</span>
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 h-full"
+          id="navbar-search"
+        >
+          <div class="relative mt-3 md:hidden">
+            <div
+              class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
+            >
               <svg
-                class="w-6 h-6"
+                class="w-5 h-5 text-gray-500"
                 aria-hidden="true"
                 fill="currentColor"
                 viewBox="0 0 20 20"
@@ -119,141 +140,158 @@
               >
                 <path
                   fill-rule="evenodd"
-                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                  d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
                   clip-rule="evenodd"
                 ></path>
               </svg>
-            </button>
-          </div>
-        </div>
-
-        <div class="links h-full flex items-center">
-          <div class="organize-btn h-full">
-            <button
-              id="dropdownHoverButton"
-              data-dropdown-toggle="dropdownHover"
-              data-dropdown-trigger="hover"
-              class="text-xs hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium font-semibold text-sm px-4 text-center inline-flex items-center h-full"
-              type="button"
-            >
-              Organize
-              <svg
-                class="w-3 h-3 ml-2"
-                aria-hidden="true"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  class="stroke-gray-400"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2.5"
-                  d="M19 9l-7 7-7-7"
-                ></path>
-              </svg>
-            </button>
-            <!-- Dropdown menu -->
-            <div
-              id="dropdownHover"
-              class="z-10 hidden bg-white divide-y divide-gray-100 shadow w-[250px]"
-            >
-              <ul
-                class="py-2 text-sm text-gray-700"
-                aria-labelledby="dropdownHoverButton"
-              >
-                <li>
-                  <a href="#" class="block px-4 py-2 hover:bg-gray-100"
-                    >Create Events</a
-                  >
-                </li>
-                <li>
-                  <a href="#" class="block px-4 py-2 hover:bg-gray-100"
-                    >Pricing</a
-                  >
-                </li>
-                <li>
-                  <a href="#" class="block px-4 py-2 hover:bg-gray-100"
-                    >Resources</a
-                  >
-                </li>
-                <li>
-                  <a href="#" class="block px-4 py-2 hover:bg-gray-100"
-                    >Contact Sales</a
-                  >
-                </li>
-              </ul>
             </div>
+            <input
+              type="text"
+              id="search-navbar"
+              class="h-[45px] block outline-transparent border-none w-[450px] p-2 pl-10 text-sm text-gray-900 border border-gray-300 bg-slate-100 focus:ring-blue-500 focus:border-blue-500 font-bold"
+              placeholder="Search events"
+            />
           </div>
-          <div class="help-btn h-full">
-            <button
-              id="dropdownHoverButton"
-              data-dropdown-toggle="dropdownHover2"
-              data-dropdown-trigger="hover"
-              class="text-xs hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium font-semibold text-sm px-4 text-center inline-flex items-center h-full"
-              type="button"
-            >
-              Help
-              <svg
-                class="w-3 h-3 ml-2"
-                aria-hidden="true"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
+          <ul
+            class="h-full flex flex-col gap-2 md:gap-0 p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white"
+          >
+            <li>
+              <div class="organize-btn h-full">
+                <button
+                  id="dropdownHoverButton"
+                  data-dropdown-toggle="dropdownHover"
+                  data-dropdown-trigger="hover"
+                  class="text-xs hover:bg-gray-100 focus:outline-none font-medium font-semibold text-sm px-4 text-center inline-flex items-center h-full"
+                  type="button"
+                >
+                  Organize
+                  <svg
+                    class="w-3 h-3 ml-2"
+                    aria-hidden="true"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      class="stroke-gray-400"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2.5"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </button>
+                <!-- Dropdown menu -->
+                <div
+                  id="dropdownHover"
+                  class="z-10 hidden bg-white divide-y divide-gray-100 shadow w-[250px]"
+                >
+                  <ul
+                    class="py-2 text-sm text-gray-700"
+                    aria-labelledby="dropdownHoverButton"
+                  >
+                    <li>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-100"
+                        >Create Events</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-100"
+                        >Pricing</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-100"
+                        >Resources</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-100"
+                        >Contact Sales</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="help-btn h-full">
+                <button
+                  id="dropdownHoverButton"
+                  data-dropdown-toggle="dropdownHover2"
+                  data-dropdown-trigger="hover"
+                  class="text-xs hover:bg-gray-100 focus:outline-none font-medium font-semibold text-sm px-4 text-center inline-flex items-center h-full"
+                  type="button"
+                >
+                  Help
+                  <svg
+                    class="w-3 h-3 ml-2"
+                    aria-hidden="true"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      class="stroke-gray-400"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2.5"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </button>
+                <!-- Dropdown menu -->
+                <div
+                  id="dropdownHover2"
+                  class="z-10 hidden bg-white divide-y divide-gray-100 shadow w-[250px]"
+                >
+                  <ul
+                    class="py-2 text-sm text-gray-700"
+                    aria-labelledby="dropdownHoverButton"
+                  >
+                    <li>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-100"
+                        >Find your tickets</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-100"
+                        >Contact an event organizer</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-100"
+                        >Visit the help center</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a
+                href=""
+                class="text-xs font-semibold px-4 hover:bg-gray-100 h-full flex items-center text-indigo-400"
+                >Create an event</a
               >
-                <path
-                  class="stroke-gray-400"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2.5"
-                  d="M19 9l-7 7-7-7"
-                ></path>
-              </svg>
-            </button>
-            <!-- Dropdown menu -->
-            <div
-              id="dropdownHover2"
-              class="z-10 hidden bg-white divide-y divide-gray-100 shadow w-[250px]"
-            >
-              <ul
-                class="py-2 text-sm text-gray-700"
-                aria-labelledby="dropdownHoverButton"
+            </li>
+            <li>
+              <a
+                href=""
+                class="text-xs font-semibold px-4 hover:bg-gray-100 h-full flex items-center"
+                >Log In</a
               >
-                <li>
-                  <a href="#" class="block px-4 py-2 hover:bg-gray-100"
-                    >Find your tickets</a
-                  >
-                </li>
-                <li>
-                  <a href="#" class="block px-4 py-2 hover:bg-gray-100"
-                    >Contact an event organizer</a
-                  >
-                </li>
-                <li>
-                  <a href="#" class="block px-4 py-2 hover:bg-gray-100"
-                    >Visit the help center</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-          <a
-            href=""
-            class="text-xs font-semibold px-4 hover:bg-gray-100 h-full flex items-center text-indigo-400"
-            >Create an event</a
-          >
-          <a
-            href=""
-            class="text-xs font-semibold px-4 hover:bg-gray-100 h-full flex items-center"
-            >Log In</a
-          >
-          <a
-            href=""
-            class="text-xs font-semibold px-4 hover:bg-gray-100 h-full flex items-center"
-            >Sign Up</a
-          >
+            </li>
+            <li>
+              <a
+                href=""
+                class="text-xs font-semibold px-4 hover:bg-gray-100 h-full flex items-center"
+                >Sign Up</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -266,7 +304,673 @@
           Find your next event
         </button>
       </div>
+      <div class="container mx-auto px-12 mt-10 max-w-screen-xl">
+        <div class="popular-part">
+          <div class="title font-black text-3xl flex items-center">
+            Popular in
+            <div class="location-input h-full">
+              <button
+                id="locationInputDropdown"
+                data-dropdown-toggle="dropdown"
+                class="text-blue-600 text-3xl px-4 py-2.5 text-center inline-flex items-center"
+                type="button"
+              >
+                <svg
+                  class="w-5 h-6 ml-2"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    class="stroke-blue-600"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="5"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+                <input
+                  type="text"
+                  class="outline-none border-b-2 border-slate-300 border-x-0 border-t-0 text-blue-600 text-3xl w-[200px] text-center focus:border-transparent focus:ring-0"
+                  placeholder="City..."
+                  value="New York"
+                />
+              </button>
+              <!-- Dropdown menu -->
+              <div
+                id="dropdown"
+                class="z-10 hidden bg-white divide-y divide-gray-100 shadow w-[250px]"
+              >
+                <ul class="py-2" aria-labelledby="locationInputDropdown">
+                  <li>
+                    <a
+                      href="#"
+                      class="flex items-center py-2 hover:bg-gray-100 text-gray-600 text-sm font-normal px-2"
+                    >
+                      <svg viewBox="0 0 24 24" class="w-5 h-5 mr-2">
+                        <g
+                          id="crosshair_svg__Crosshair"
+                          stroke-width="1"
+                          fill="none"
+                          fill-rule="evenodd"
+                          class="stroke-blue-600"
+                        >
+                          >
+                          <path
+                            d="M11 18.93A7.005 7.005 0 015.07 13H3v-2h2.07A7.005 7.005 0 0111 5.07V3h2v2.07A7.005 7.005 0 0118.93 11H21v2h-2.07A7.005 7.005 0 0113 18.93V21h-2v-2.07zM12 17a5 5 0 100-10 5 5 0 000 10zm0-3a2 2 0 110-4 2 2 0 010 4z"
+                            id="crosshair_svg__crosshair"
+                            class="fill-blue-600"
+                          ></path>
+                        </g>
+                      </svg>
+                      Use my current location
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="flex items-center py-2 hover:bg-gray-100 text-gray-600 text-sm font-normal px-2"
+                    >
+                      <svg
+                        id="video-chunky_svg__eds-icon--video-chunky_svg"
+                        x="0"
+                        y="0"
+                        viewBox="0 0 24 24"
+                        xml:space="preserve"
+                        class="w-5 h-5 mr-2"
+                      >
+                        <g
+                          id="video-chunky_svg__eds-icon--video-chunky_base"
+                          class="stroke-blue-600"
+                        >
+                          <path
+                            d="M19 4v1H5V4H3v16h2v-1h14v1h2V4h-2zm0 13H5V7h14v10z"
+                            class="fill-blue-600"
+                          >
+                            >
+                          </path>
+                        </g>
+                        <path
+                          id="video-chunky_svg__eds-icon--video-chunky_play"
+                          d="M10 15l5-3-5-3z"
+                          class="fill-blue-600"
+                        ></path>
+                      </svg>
+                      Brows online events</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="tabs">
+            <div class="mb-4">
+              <ul
+                class="flex flex-wrap -mb-px text-sm font-semibold text-center"
+                id="myTab"
+                data-tabs-toggle="#myTabContent"
+                role="tablist"
+              >
+                <li class="mr-2" role="presentation">
+                  <button
+                    class="inline-block p-4 border-b-2 rounded-t-lg"
+                    id="all-tab"
+                    data-tabs-target="#all"
+                    type="button"
+                    role="tab"
+                    aria-controls="all"
+                    aria-selected="false"
+                  >
+                    All
+                  </button>
+                </li>
+                <li class="mr-2" role="presentation">
+                  <button
+                    class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300"
+                    id="for-you-tab"
+                    data-tabs-target="#for-you"
+                    type="button"
+                    role="tab"
+                    aria-controls="for-you"
+                    aria-selected="false"
+                  >
+                    For you
+                  </button>
+                </li>
+                <li class="mr-2" role="presentation">
+                  <button
+                    class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300"
+                    id="online-tab"
+                    data-tabs-target="#online"
+                    type="button"
+                    role="tab"
+                    aria-controls="online"
+                    aria-selected="false"
+                  >
+                    Online
+                  </button>
+                </li>
+                <li class="mr-2" role="presentation">
+                  <button
+                    class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300"
+                    id="today-tab"
+                    data-tabs-target="#today"
+                    type="button"
+                    role="tab"
+                    aria-controls="today"
+                    aria-selected="false"
+                  >
+                    Today
+                  </button>
+                </li>
+                <li class="mr-2" role="presentation">
+                  <button
+                    class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300"
+                    id="this-weekend-tab"
+                    data-tabs-target="#this-weekend"
+                    type="button"
+                    role="tab"
+                    aria-controls="this-weekend"
+                    aria-selected="false"
+                  >
+                    This weekend
+                  </button>
+                </li>
+                <li class="mr-2" role="presentation">
+                  <button
+                    class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300"
+                    id="juneteenth-tab"
+                    data-tabs-target="#juneteenth"
+                    type="button"
+                    role="tab"
+                    aria-controls="juneteenth"
+                    aria-selected="false"
+                  >
+                    Juneteenth
+                  </button>
+                </li>
+                <li class="mr-2" role="presentation">
+                  <button
+                    class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300"
+                    id="pride-tab"
+                    data-tabs-target="#pride"
+                    type="button"
+                    role="tab"
+                    aria-controls="pride"
+                    aria-selected="false"
+                  >
+                    Pride
+                  </button>
+                </li>
+                <li class="mr-2" role="presentation">
+                  <button
+                    class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300"
+                    id="free-tab"
+                    data-tabs-target="#free"
+                    type="button"
+                    role="tab"
+                    aria-controls="free"
+                    aria-selected="false"
+                  >
+                    Free
+                  </button>
+                </li>
+                <li class="mr-2" role="presentation">
+                  <button
+                    class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300"
+                    id="music-tab"
+                    data-tabs-target="#music"
+                    type="button"
+                    role="tab"
+                    aria-controls="music"
+                    aria-selected="false"
+                  >
+                    Music
+                  </button>
+                </li>
+                <li class="mr-2" role="presentation">
+                  <button
+                    class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300"
+                    id="food-drink-tab"
+                    data-tabs-target="#food-drink"
+                    type="button"
+                    role="tab"
+                    aria-controls="food-drink"
+                    aria-selected="false"
+                  >
+                    Food & Drink
+                  </button>
+                </li>
+                <li class="mr-2" role="presentation">
+                  <button
+                    class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300"
+                    id="charity-causes-tab"
+                    data-tabs-target="#charity-causes"
+                    type="button"
+                    role="tab"
+                    aria-controls="charity-causes"
+                    aria-selected="false"
+                  >
+                    Charity & Causes
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <div id="myTabContent">
+              <div
+                class="hidden p-4 rounded-lg bg-gray-50"
+                id="all"
+                role="tabpanel"
+                aria-labelledby="all-tab"
+              >
+                <p class="text-sm text-gray-500">
+                  This is some placeholder content the
+                  <strong class="font-medium text-gray-800"
+                    >all tab's associated content</strong
+                  >. Clicking another tab will toggle the visibility of this one
+                  for the next. The tab JavaScript swaps classes to control the
+                  content visibility and styling.
+                </p>
+              </div>
+              <div
+                class="hidden p-4 rounded-lg bg-gray-50"
+                id="for-you"
+                role="tabpanel"
+                aria-labelledby="for-you-tab"
+              >
+                <p class="text-sm text-gray-500">
+                  This is some placeholder content the
+                  <strong class="font-medium text-gray-800"
+                    >for-you tab's associated content</strong
+                  >. Clicking another tab will toggle the visibility of this one
+                  for the next. The tab JavaScript swaps classes to control the
+                  content visibility and styling.
+                </p>
+              </div>
+              <div
+                class="hidden p-4 rounded-lg bg-gray-50"
+                id="online"
+                role="tabpanel"
+                aria-labelledby="online-tab"
+              >
+                <p class="text-sm text-gray-500">
+                  This is some placeholder content the
+                  <strong class="font-medium text-gray-800"
+                    >online tab's associated content</strong
+                  >. Clicking another tab will toggle the visibility of this one
+                  for the next. The tab JavaScript swaps classes to control the
+                  content visibility and styling.
+                </p>
+              </div>
+              <div
+                class="hidden p-4 rounded-lg bg-gray-50"
+                id="today"
+                role="tabpanel"
+                aria-labelledby="today-tab"
+              >
+                <p class="text-sm text-gray-500">
+                  This is some placeholder content the
+                  <strong class="font-medium text-gray-800"
+                    >today tab's associated content</strong
+                  >. Clicking another tab will toggle the visibility of this one
+                  for the next. The tab JavaScript swaps classes to control the
+                  content visibility and styling.
+                </p>
+              </div>
+              <div
+                class="hidden p-4 rounded-lg bg-gray-50"
+                id="this-weekend"
+                role="tabpanel"
+                aria-labelledby="this-weekend-tab"
+              >
+                <p class="text-sm text-gray-500">
+                  This is some placeholder content the
+                  <strong class="font-medium text-gray-800"
+                    >this-weekend tab's associated content</strong
+                  >. Clicking another tab will toggle the visibility of this one
+                  for the next. The tab JavaScript swaps classes to control the
+                  content visibility and styling.
+                </p>
+              </div>
+              <div
+                class="hidden p-4 rounded-lg bg-gray-50"
+                id="juneteenth"
+                role="tabpanel"
+                aria-labelledby="juneteenth-tab"
+              >
+                <p class="text-sm text-gray-500">
+                  This is some placeholder content the
+                  <strong class="font-medium text-gray-800"
+                    >juneteenth tab's associated content</strong
+                  >. Clicking another tab will toggle the visibility of this one
+                  for the next. The tab JavaScript swaps classes to control the
+                  content visibility and styling.
+                </p>
+              </div>
+              <div
+                class="hidden p-4 rounded-lg bg-gray-50"
+                id="pride"
+                role="tabpanel"
+                aria-labelledby="pride-tab"
+              >
+                <p class="text-sm text-gray-500">
+                  This is some placeholder content the
+                  <strong class="font-medium text-gray-800"
+                    >pride tab's associated content</strong
+                  >. Clicking another tab will toggle the visibility of this one
+                  for the next. The tab JavaScript swaps classes to control the
+                  content visibility and styling.
+                </p>
+              </div>
+              <div
+                class="hidden p-4 rounded-lg bg-gray-50"
+                id="free"
+                role="tabpanel"
+                aria-labelledby="free-tab"
+              >
+                <p class="text-sm text-gray-500">
+                  This is some placeholder content the
+                  <strong class="font-medium text-gray-800"
+                    >free tab's associated content</strong
+                  >. Clicking another tab will toggle the visibility of this one
+                  for the next. The tab JavaScript swaps classes to control the
+                  content visibility and styling.
+                </p>
+              </div>
+              <div
+                class="hidden p-4 rounded-lg bg-gray-50"
+                id="music"
+                role="tabpanel"
+                aria-labelledby="music-tab"
+              >
+                <p class="text-sm text-gray-500">
+                  This is some placeholder content the
+                  <strong class="font-medium text-gray-800"
+                    >music tab's associated content</strong
+                  >. Clicking another tab will toggle the visibility of this one
+                  for the next. The tab JavaScript swaps classes to control the
+                  content visibility and styling.
+                </p>
+              </div>
+              <div
+                class="hidden p-4 rounded-lg bg-gray-50"
+                id="food-drink"
+                role="tabpanel"
+                aria-labelledby="food-drink-tab"
+              >
+                <p class="text-sm text-gray-500">
+                  This is some placeholder content the
+                  <strong class="font-medium text-gray-800"
+                    >food-drink tab's associated content</strong
+                  >. Clicking another tab will toggle the visibility of this one
+                  for the next. The tab JavaScript swaps classes to control the
+                  content visibility and styling.
+                </p>
+              </div>
+              <div
+                class="hidden p-4 rounded-lg bg-gray-50"
+                id="charity-causes"
+                role="tabpanel"
+                aria-labelledby="charity-causes-tab"
+              >
+                <p class="text-sm text-gray-500">
+                  This is some placeholder content the
+                  <strong class="font-medium text-gray-800"
+                    >charity-causes tab's associated content</strong
+                  >. Clicking another tab will toggle the visibility of this one
+                  for the next. The tab JavaScript swaps classes to control the
+                  content visibility and styling.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+    <footer class="bg-indigo-950 text-stone-300 px-12">
+      <div
+        class="footer-links container pt-10 max-w-screen-xl flex flex-col sm:flex-row"
+      >
+        <div class="part-1 lg:w-1/4 pl-6 md:pl-0 mr-4">
+          <p class="text-sm font-bold mb-2">Use Eventbrite</p>
+          <ul class="list-none text-xs py-2">
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >Create Events</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="capitalize hover:text-blue-400 hover:underline"
+                >pricing</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="capitalize hover:text-blue-400 hover:underline"
+                >Eventbrite boost</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="capitalize hover:text-blue-400 hover:underline"
+                >Eventbrite Mobile Ticket App</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="capitalize hover:text-blue-400 hover:underline"
+                >Eventbrite Check-In App</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="capitalize hover:text-blue-400 hover:underline"
+                >Eventbrite App Marketplace</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="capitalize hover:text-blue-400 hover:underline"
+                >Event Registration Software</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="capitalize hover:text-blue-400 hover:underline"
+                >Content Standards</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="capitalize hover:text-blue-400 hover:underline"
+                >FAQs</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="capitalize hover:text-blue-400 hover:underline"
+                >sitemap</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="part-2 lg:w-1/4 pl-6 mr-4">
+          <p class="text-sm font-bold mb-2">Plan Events</p>
+          <ul class="list-none text-xs py-2">
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >Sell Tickets Online</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >Event Planning</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >Sell Concert Tickets Online</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >Event Payment System</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >Solutions for Professional Services</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >Event Management Software</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >Community Engagement</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >Virtual Events Platform</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >QR Codes for Event Check-In</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >Post your event online</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="part-3 lg:w-1/4 pl-6 mr-4">
+          <p class="text-sm font-bold mb-2">Find Events</p>
+          <ul class="list-none text-xs py-2">
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >New Orleans Food & Drink Events</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >San Francisco Holiday Events</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >Tulum Music Events</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >Denver Hobby Events</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >Atlanta Pop Music Events</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >New York Events</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >Chicago Events</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >Events in Dallas Today</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >Los Angeles Events</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >Washington Events</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="part-4 lg:w-1/4 pl-6 mr-4">
+          <p class="text-sm font-bold mb-2">Find Events</p>
+          <ul class="list-none text-xs py-2">
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >Contact Support</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >Contact Sales</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline">Twitter</a>
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >Facebook</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >LinkedIn</a
+              >
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:text-blue-400 hover:underline"
+                >Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="copyright-section w-full flex flex-col md:flex-row items-center justify-between py-6 text-xs font-semibold gap-3"
+      >
+        <div class="copyright text-xs">© 2023 Eventbrite</div>
+        <div class="links flex flex-wrap justify-center gap-3">
+          <a href="" class="hover:text-blue-400 hover:underline">About </a>●
+          <a href="" class="hover:text-blue-400 hover:underline">Blog </a>●
+          <a href="" class="hover:text-blue-400 hover:underline">Help </a>●
+          <a href="" class="hover:text-blue-400 hover:underline">Careers</a>●
+          <a href="" class="hover:text-blue-400 hover:underline">Press </a>●
+          <a href="" class="hover:text-blue-400 hover:underline">Impact</a>●
+          <a href="" class="hover:text-blue-400 hover:underline">Investors</a>●
+          <a href="" class="hover:text-blue-400 hover:underline">Security</a>●
+          <a href="" class="hover:text-blue-400 hover:underline"> Developers</a
+          >● <a href="" class="hover:text-blue-400 hover:underline">Terms </a>●
+          <a href="" class="hover:text-blue-400 hover:underline"> Privacy </a>●
+          <a href="" class="hover:text-blue-400 hover:underline">
+            CA Privacy Notice </a
+          >●
+          <a href="" class="hover:text-blue-400 hover:underline"
+            >Accessibility</a
+          >●
+          <a href="" class="hover:text-blue-400 hover:underline"> Cookies</a>
+        </div>
+        <div class="select">
+          <select
+            name="countries"
+            id="countries"
+            class="border-0 bg-transparent focus:bg-indigo-950 p-2"
+          >
+            <option value="USA">United State</option>
+            <option value="Iran">Iran</option>
+            <option value="UK">United Kingdom</option>
+            <option value="Germany">Germany</option>
+            <option value="Denmark">Denmark</option>
+          </select>
+        </div>
+      </div>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
   </body>
 </html>
