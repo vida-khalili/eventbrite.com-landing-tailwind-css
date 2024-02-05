@@ -11,4 +11,5 @@ body {
   font-family: "Neue-Plak", sans-serif;
   color: #39364f;
   font-size: 14px;
+  overflow-x: hidden;
 }
